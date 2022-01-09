@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1{
+    height: 100vh;
+    width: 17%;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 1;
+
+}.box1 h2{
+    text-align: center;
+  margin-top: 20px;
+}
+ .box2{
+    height: 100vh;
+    width: 80%;
+    position: static;
+    margin-left: 20%;
+    
+}
+.userprofile{
+    height: 190px;
+    background-color:whitesmoke;
+    text-align:center;
+    margin-top:30px;
+   
+}
+.userprofile h4{
+    margin-top: 10px;
+text-align: center;
+}
+.userimage img{
+    height: 50px;
+    width: 45px;
+    border-radius: 50%;
+    
+}
+.userimage{
+    height: 60px;
+    width: 55px;
+    border: 2px solid indianred;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    
+}
+.container p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.userdetails{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.details{
+    width: 33%;
+   text-align: center;  
+}
+.navigation{
+    height:100vh;
+   width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.navigation .link{
+    height: 30px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.link i{
+    position: absolute;
+    left: 50px;
+}
+.btnandsearch{
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ .searchbar{
+    width: 300px;
+    height: 30px;
+    box-shadow: 0 2px 0 3px whitesmoke;
+    border-radius: 20px; 
+    position: relative;
+}
+.searchbar input{
+    width: 93%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.searchbar i{
+    font-size: 16px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.5);
+}
+.btn{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    
+}
+.btn i{
+    font-size: 20px;
+    color: #000;
+    
+   
+}    
+.btn button{
+    height: 35px;
+    width: 130px;
+    font-size: 17px;
+    color: white;
+    background: linear-gradient(to right,red,orange);
+    border: none;
+    border-radius: 10px;
+}
+.btn button span{
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 50%;
+    width: 20px;
+    margin: 3px;
+}
+.btn i span{
+    color: red;
+    font-size: 30px;
+     position: absolute;
+     top: 0px;
+     left: 83.5%; 
+}
+ .storybox{
+     height: 140px;
+     width: 100%;
+          display: flex;
+          justify-content:space-between;
+          align-items: center;
+     
+ }
+ .story{
+     width: 100px;
+     height: 70%;
+     margin-top: 10px;
+     
+ }
+ .imagebox img{
+     height: 65px;
+     width: 65px;
+     border-radius: 50%;
+     margin-top: 1px;
+     
+ }
+ .imagebox{
+     height: 74px;
+     width: 77px;
+     border: 3px solid indianred;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     position: relative;
+ }
+ .imagebox .b{
+     position: absolute;
+      text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(143, 132, 214,0.6);
+ }
+ .b h1{
+     margin-top: 20px;
+ }
+ .postbox{
+     height: 100vh;
+     width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 5px;
+ }
+ .post{
+     height: 290px;
+     width: 350px;
+    
+ }
+ .postimage{
+     width: 200px;
+     height: 230px;
+ }
+ .postimage img{
+     width: 350px;
+     height: 240px;
+     border-radius: 14px;
+ }
+ .postimage h4{
+     margin-left: 10%;
+     margin-top: 10px;
+     
+ }
+ .postdetails{
+     width: 100%;
+     height: 60px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .userimagebox{
+     height: 33px;
+     width: 34px;
+     border: 2px solid indianred;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 20px;
+ }
+ .userimagebox img {
+     height: 28px;
+     width: 30px;
+     border-radius: 50%;
+ }
+ .likeandcomment {
+     margin-right: 10px;
+ }
+ .likeandcomment a{
+     margin: 10px;
+ }
